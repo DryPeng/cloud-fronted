@@ -325,18 +325,18 @@ export default function Index() {
                 <Paper>
                     <div className={classes.logoContainer}>
                         <img
-                            alt="cloudreve"
+                            alt="OpenCloud"
                             className={classes.logo}
-                            src={"/static/img/cloudreve.svg"}
+                            src={"/static/img/icechui.svg"}
                         />
                         <div className={classes.title}>
                             <Typography className={classes.cloudreve}>
-                                Cloudreve
+                                Open Cloud
                             </Typography>
                             <Typography className={classes.version}>
                                 {version.backend}{" "}
-                                {version.is_pro === "true" && (
-                                    <Chip size="small" label="Pro" />
+                                {version.is_pro === "false" && (
+                                    <Chip size="small" label="DryPeng" />
                                 )}
                             </Typography>
                         </div>
@@ -347,7 +347,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://cloudreve.org")
+                                    window.open("https://drypeng.io")
                                 }
                             >
                                 <ListItemIcon>
@@ -362,7 +362,7 @@ export default function Index() {
                                 button
                                 onClick={() =>
                                     window.open(
-                                        "https://github.com/cloudreve/cloudreve"
+                                        "https://github.com/DryPeng"
                                     )
                                 }
                             >
@@ -377,7 +377,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://docs.cloudreve.org/")
+                                    window.open("https://docs.drypeng.io/")
                                 }
                             >
                                 <ListItemIcon>
@@ -390,50 +390,50 @@ export default function Index() {
                                     <Launch />
                                 </ListItemIcon>
                             </ListItem>
-                            <ListItem
-                                button
-                                onClick={() =>
-                                    window.open(t("summary.forumLink"))
-                                }
-                            >
-                                <ListItemIcon>
-                                    <Forum />
-                                </ListItemIcon>
-                                <ListItemText primary={t("summary.forum")} />
-                                <ListItemIcon className={classes.iconRight}>
-                                    <Launch />
-                                </ListItemIcon>
-                            </ListItem>
-                            <ListItem
-                                button
-                                onClick={() =>
-                                    window.open(t("summary.telegramGroupLink"))
-                                }
-                            >
-                                <ListItemIcon>
-                                    <Telegram />
-                                </ListItemIcon>
-                                <ListItemText
-                                    primary={t("summary.telegramGroup")}
-                                />
-                                <ListItemIcon className={classes.iconRight}>
-                                    <Launch />
-                                </ListItemIcon>
-                            </ListItem>
-                            <ListItem
-                                button
-                                onClick={() =>
-                                    window.open("https://cloudreve.org/pro")
-                                }
-                            >
-                                <ListItemIcon style={{ color: "#ff789d" }}>
-                                    <Favorite />
-                                </ListItemIcon>
-                                <ListItemText primary={t("summary.buyPro")} />
-                                <ListItemIcon className={classes.iconRight}>
-                                    <Launch />
-                                </ListItemIcon>
-                            </ListItem>
+                            // <ListItem
+                            //     button
+                            //     onClick={() =>
+                            //         window.open(t("summary.forumLink"))
+                            //     }
+                            // >
+                            //     <ListItemIcon>
+                            //         <Forum />
+                            //     </ListItemIcon>
+                            //     <ListItemText primary={t("summary.forum")} />
+                            //     <ListItemIcon className={classes.iconRight}>
+                            //         <Launch />
+                            //     </ListItemIcon>
+                            // </ListItem>
+                            // <ListItem
+                            //     button
+                            //     onClick={() =>
+                            //         window.open(t("summary.telegramGroupLink"))
+                            //     }
+                            // >
+                                // <ListItemIcon>
+                                //     <Telegram />
+                                // </ListItemIcon>
+                                // <ListItemText
+                                //     primary={t("summary.telegramGroup")}
+                                // />
+                                // <ListItemIcon className={classes.iconRight}>
+                                //     <Launch />
+                                // </ListItemIcon>
+                            // </ListItem>
+                            // <ListItem
+                            //     button
+                            //     onClick={() =>
+                            //         window.open("https://drypeng.io")
+                            //     }
+                            // >
+                            //     <ListItemIcon style={{ color: "#ff789d" }}>
+                            //         <Favorite />
+                            //     </ListItemIcon>
+                            //     <ListItemText primary={t("summary.buyPro")} />
+                            //     <ListItemIcon className={classes.iconRight}>
+                            //         <Launch />
+                            //     </ListItemIcon>
+                            // </ListItem>
                         </List>
                     </div>
                 </Paper>
@@ -469,53 +469,53 @@ export default function Index() {
                                                 }
                                             />
                                         </ListItemAvatar>
-                                        <ListItemText
-                                            primary={v.attributes.title}
-                                            secondary={
-                                                <React.Fragment>
-                                                    <Typography
-                                                        component="span"
-                                                        variant="body2"
-                                                        className={
-                                                            classes.inline
-                                                        }
-                                                        color="textPrimary"
-                                                    >
-                                                        {newsUsers[
-                                                            v.relationships
-                                                                .startUser.data
-                                                                .id
-                                                        ] &&
-                                                            newsUsers[
-                                                                v.relationships
-                                                                    .startUser
-                                                                    .data.id
-                                                            ].username}{" "}
-                                                    </Typography>
-                                                    <Trans
-                                                        ns={"dashboard"}
-                                                        i18nKey="summary.publishedAt"
-                                                        components={[
-                                                            <TimeAgo
-                                                                key={0}
-                                                                datetime={
-                                                                    v.attributes
-                                                                        .startTime
-                                                                }
-                                                                locale={t(
-                                                                    "timeAgoLocaleCode",
-                                                                    {
-                                                                        ns:
-                                                                            "common",
-                                                                    }
-                                                                )}
-                                                            />,
-                                                        ]}
-                                                    />
-                                                </React.Fragment>
-                                            }
-                                        />
-                                    </ListItem>
+                                    //     <ListItemText
+                                    //         primary={v.attributes.title}
+                                    //         secondary={
+                                    //             <React.Fragment>
+                                    //                 <Typography
+                                    //                     component="span"
+                                    //                     variant="body2"
+                                    //                     className={
+                                    //                         classes.inline
+                                    //                     }
+                                    //                     color="textPrimary"
+                                    //                 >
+                                    //                     {newsUsers[
+                                    //                         v.relationships
+                                    //                             .startUser.data
+                                    //                             .id
+                                    //                     ] &&
+                                    //                         newsUsers[
+                                    //                             v.relationships
+                                    //                                 .startUser
+                                    //                                 .data.id
+                                    //                         ].username}{" "}
+                                    //                 </Typography>
+                                    //                 <Trans
+                                    //                     ns={"dashboard"}
+                                    //                     i18nKey="summary.publishedAt"
+                                    //                     components={[
+                                    //                         <TimeAgo
+                                    //                             key={0}
+                                    //                             datetime={
+                                    //                                 v.attributes
+                                    //                                     .startTime
+                                    //                             }
+                                    //                             locale={t(
+                                    //                                 "timeAgoLocaleCode",
+                                    //                                 {
+                                    //                                     ns:
+                                    //                                         "common",
+                                    //                                 }
+                                    //                             )}
+                                    //                         />,
+                                    //                     ]}
+                                    //                 />
+                                    //             </React.Fragment>
+                                    //         }
+                                    //     />
+                                    // </ListItem>
                                     <Divider />
                                 </>
                             ))}
