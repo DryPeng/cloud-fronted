@@ -420,106 +420,106 @@ export default function Index() {
                                     <Launch />
                                 </ListItemIcon>
                             </ListItem>
-                            // <ListItem
-                            //     button
-                            //     onClick={() =>
-                            //         window.open("https://drypeng.io")
-                            //     }
-                            // >
-                            //     <ListItemIcon style={{ color: "#ff789d" }}>
-                            //         <Favorite />
-                            //     </ListItemIcon>
-                            //     <ListItemText primary={t("summary.buyPro")} />
-                            //     <ListItemIcon className={classes.iconRight}>
-                            //         <Launch />
-                            //     </ListItemIcon>
-                            // </ListItem>
+                            {/* <ListItem
+                                button
+                                onClick={() =>
+                                    window.open("https://drypeng.io")
+                                }
+                            >
+                                <ListItemIcon style={{ color: "#ff789d" }}>
+                                    <Favorite />
+                                </ListItemIcon>
+                                <ListItemText primary={t("summary.buyPro")} />
+                                <ListItemIcon className={classes.iconRight}>
+                                    <Launch />
+                                </ListItemIcon>
+                            </ListItem> */}
                         </List>
                     </div>
                 </Paper>
             </Grid>
             <Grid item xs={12} md={8} lg={9}>
                 <Paper className={classes.paper}>
-                    // <List>
-                    //     {news &&
-                    //         news.map((v) => (
-                    //             <>
-                    //                 <ListItem
-                    //                     button
-                    //                     alignItems="flex-start"
-                    //                     onClick={() =>
-                    //                         window.open(
-                    //                             "https://forum.cloudreve.org/d/" +
-                    //                                 v.id
-                    //                         )
-                    //                     }
-                    //                 >
-                    //                     <ListItemAvatar>
-                    //                         <Avatar
-                    //                             alt="Travis Howard"
-                    //                             src={
-                    //                                 newsUsers[
-                    //                                     v.relationships
-                    //                                         .startUser.data.id
-                    //                                 ] &&
-                    //                                 newsUsers[
-                    //                                     v.relationships
-                    //                                         .startUser.data.id
-                    //                                 ].avatarUrl
-                    //                             }
-                    //                         />
-                    //                     </ListItemAvatar>
-                    //                     <ListItemText
-                    //                         primary={v.attributes.title}
-                    //                         secondary={
-                    //                             <React.Fragment>
-                    //                                 <Typography
-                    //                                     component="span"
-                    //                                     variant="body2"
-                    //                                     className={
-                    //                                         classes.inline
-                    //                                     }
-                    //                                     color="textPrimary"
-                    //                                 >
-                    //                                     {newsUsers[
-                    //                                         v.relationships
-                    //                                             .startUser.data
-                    //                                             .id
-                    //                                     ] &&
-                    //                                         newsUsers[
-                    //                                             v.relationships
-                    //                                                 .startUser
-                    //                                                 .data.id
-                    //                                         ].username}{" "}
-                    //                                 </Typography>
-                    //                                 <Trans
-                    //                                     ns={"dashboard"}
-                    //                                     i18nKey="summary.publishedAt"
-                    //                                     components={[
-                    //                                         <TimeAgo
-                    //                                             key={0}
-                    //                                             datetime={
-                    //                                                 v.attributes
-                    //                                                     .startTime
-                    //                                             }
-                    //                                             locale={t(
-                    //                                                 "timeAgoLocaleCode",
-                    //                                                 {
-                    //                                                     ns:
-                    //                                                         "common",
-                    //                                                 }
-                    //                                             )}
-                    //                                         />,
-                    //                                     ]}
-                    //                                 />
-                    //                             </React.Fragment>
-                    //                         }
-                    //                     />
-                    //                 </ListItem>
-                    //                 <Divider />
-                    //             </>
-                    //         ))}
-                    // </List>
+                    {/* <List>
+                        {news &&
+                            news.map((v) => (
+                                <>
+                                    <ListItem
+                                        button
+                                        alignItems="flex-start"
+                                        onClick={() =>
+                                            window.open(
+                                                "https://forum.cloudreve.org/d/" +
+                                                    v.id
+                                            )
+                                        }
+                                    >
+                                        <ListItemAvatar>
+                                            <Avatar
+                                                alt="Travis Howard"
+                                                src={
+                                                    newsUsers[
+                                                        v.relationships
+                                                            .startUser.data.id
+                                                    ] &&
+                                                    newsUsers[
+                                                        v.relationships
+                                                            .startUser.data.id
+                                                    ].avatarUrl
+                                                }
+                                            />
+                                        </ListItemAvatar>
+                                        <ListItemText
+                                            primary={v.attributes.title}
+                                            secondary={
+                                                <React.Fragment>
+                                                    <Typography
+                                                        component="span"
+                                                        variant="body2"
+                                                        className={
+                                                            classes.inline
+                                                        }
+                                                        color="textPrimary"
+                                                    >
+                                                        {newsUsers[
+                                                            v.relationships
+                                                                .startUser.data
+                                                                .id
+                                                        ] &&
+                                                            newsUsers[
+                                                                v.relationships
+                                                                    .startUser
+                                                                    .data.id
+                                                            ].username}{" "}
+                                                    </Typography>
+                                                    <Trans
+                                                        ns={"dashboard"}
+                                                        i18nKey="summary.publishedAt"
+                                                        components={[
+                                                            <TimeAgo
+                                                                key={0}
+                                                                datetime={
+                                                                    v.attributes
+                                                                        .startTime
+                                                                }
+                                                                locale={t(
+                                                                    "timeAgoLocaleCode",
+                                                                    {
+                                                                        ns:
+                                                                            "common",
+                                                                    }
+                                                                )}
+                                                            />,
+                                                        ]}
+                                                    />
+                                                </React.Fragment>
+                                            }
+                                        />
+                                    </ListItem>
+                                    <Divider />
+                                </>
+                            ))}
+                    </List> */}
                 </Paper>
             </Grid>
         </Grid>
