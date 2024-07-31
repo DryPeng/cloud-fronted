@@ -657,7 +657,7 @@
     "testAria2Des": "Once you have completed these steps, you can click the Test button below to test that if {{mode}} Open Cloud is communicating properly to Aria2.",
     "testAria2DesSlaveAddition": "Please make sure you have performed and passed the \"Slave Communication Test\" on the previous page before performing the test.",
     "testAria2": "Testing Aria2 Communication",
-    "aria2DocURL": "https://docs.Open Cloud.org/v/en/use/aria2",
+    "aria2DocURL": "https://docs.drypeng.io/v/en/use/aria2",
     "nameNode": "Enter the name of this node:",
     "loadBalancerRankDes": "Specify a load balancing weight for this node, the value is an integer. Some load balancing policies will weight the nodes based on this value.",
     "loadBalancerRank": "Load balancing weight",
