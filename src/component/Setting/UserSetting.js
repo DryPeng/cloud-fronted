@@ -1059,7 +1059,7 @@ class UserSettingCompoment extends Component {
                         </div>
                     )}
 
-                    <Typography
+                    {/* <Typography
                         className={classes.sectionTitle}
                         variant="subtitle2"
                     >
@@ -1109,7 +1109,7 @@ class UserSettingCompoment extends Component {
                                 </ListItemSecondaryAction>
                             </ListItem>
                         </List>
-                    </Paper>
+                    </Paper> */}
 
                     <div className={classes.paddingBottom} />
                 </div>
