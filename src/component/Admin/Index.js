@@ -327,7 +327,7 @@ export default function Index() {
                         <img
                             alt="OpenCloud"
                             className={classes.logo}
-                            src={"/static/img/icechui.svg"}
+                            src={"/static/img/cloudreve.svg"}
                         />
                         <div className={classes.title}>
                             <Typography className={classes.cloudreve}>
