@@ -490,7 +490,7 @@
     "downloadNumber": "Downloads",
     "viewNumber": "Views",
     "language": "Language",
-    "iOSApp": "iOS App",
+    "iOSApp": "!Do not use iOS App!",
     "connectByiOS": "Connect to <0>{{title}}</0> through iOS devices.",
     "downloadOurApp": "Download our iOS APP:",
     "fillInEndpoint": "Scan below QR Code with our App (DO NOT use other app to scan):",
