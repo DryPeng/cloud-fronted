@@ -379,7 +379,7 @@ export default function WebDAV() {
                             </Button>
                         </div>
                     )}
-                    {tab === 1 && <AppPromotion />}
+                    // {tab === 1 && <AppPromotion />}
                 </div>
             </Paper>
         </div>
