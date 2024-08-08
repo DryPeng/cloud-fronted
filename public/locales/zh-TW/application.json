@@ -490,7 +490,7 @@
     "downloadNumber": "下載次數",
     "viewNumber": "瀏覽次數",
     "language": "語言",
-    "iOSApp": "iOS 用戶端",
+    "iOSApp": "!不要使用 iOS 客户端!",
     "connectByiOS": "透過 iOS 設備連接到 <0>{{title}}</0>",
     "downloadOurApp": "下載並安裝我們的 iOS 應用：",
     "fillInEndpoint": "使用我們的 iOS 應用掃描下方二維碼（其他掃碼應用無效）：",
