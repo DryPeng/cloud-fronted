@@ -22,7 +22,6 @@ import Link from "@material-ui/core/Link";
 import { toggleSnackbar } from "../../redux/explorer";
 import Nothing from "../Placeholder/Nothing";
 import { useTranslation } from "react-i18next";
-// import AppPromotion from "./AppPromotion";
 import Tooltip from "@material-ui/core/Tooltip";
 import ToggleIcon from "material-ui-toggle-icon";
 import { Pencil, PencilOff } from "mdi-material-ui";
