@@ -191,7 +191,7 @@ export default function WebDAV() {
                     aria-label="disabled tabs example"
                 >
                     <Tab label={t("setting.webdavAccounts")} />
-                    // {appPromotion && <Tab label={t("setting.iOSApp")} />}
+                    {appPromotion && <Tab label={t("setting.iOSApp")} />}
                 </Tabs>
                 <div className={classes.cardContent}>
                     {tab === 0 && (
